@@ -81,6 +81,11 @@ jobs:
           - linux/arm/v6
           - linux/s390x
           - linux/ppc64le
+          - linux/arm/v7l
+          - linux/mipsle
+          - linux/mipsel
+          - linux/mips/mipsle
+          - linux/mips/mipsel
 
     steps:
       - name: 替换平台名称中的斜杠为横杠
